@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>coba</groupId>
-  <artifactId>manko</artifactId>
-  <version>1.0.0</version>
+  <artifactId>manko1</artifactId>
+  <version>1.0.3</version>
 
   <name>manko</name>
   <!-- FIXME change it to the project's website -->
@@ -29,13 +29,7 @@
     </dependency>
   </dependencies>
 
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/vikhanmuhammad/CobaLagiInspection</url>
-    </repository>
-  </distributionManagement>
+ 
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -82,4 +76,13 @@
       </plugins>
     </pluginManagement>
   </build>
+
+   <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/vikhanmuhammad/CobaLagiInspection</url>
+    </repository>
+  </distributionManagement>
+  
 </project>
