@@ -29,13 +29,7 @@
     </dependency>
   </dependencies>
 
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/vikhanmuhammad/CobaLagiInspection</url>
-    </repository>
-  </distributionManagement>
+ 
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -82,4 +76,13 @@
       </plugins>
     </pluginManagement>
   </build>
+
+   <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/vikhanmuhammad/CobaLagiInspection</url>
+    </repository>
+  </distributionManagement>
+  
 </project>
